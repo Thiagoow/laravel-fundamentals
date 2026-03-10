@@ -3,7 +3,6 @@
         Welcome
     </x-slot:title>
 
-    <main class="flex-1 container mx-auto px-4 py-8">
     <div class="max-w-2xl mx-auto">
         @forelse ($chirps as $chirp)
             <div class="card bg-base-100 shadow mt-8">
@@ -21,5 +20,4 @@
             <p class="text-gray-500">No chirps yet. Be the first to chirp!</p>
         @endforelse
     </div>
-    </main>
 </x-layout>
