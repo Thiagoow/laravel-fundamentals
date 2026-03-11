@@ -5,3 +5,5 @@ use App\Http\Controllers\ChirpController;
 
 Route::get('/', [ChirpController::class, 'index']);
 Route::resource('chirps', ChirpController::class)->except(['index', 'create', 'show']);
+
+Route::view('/register', 'auth.register');
