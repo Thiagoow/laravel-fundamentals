@@ -44,8 +44,8 @@ class ChirpController extends Controller
             'user_id' => null, // We'll add authentication in lesson 11
         ]);
 
-        // Redirect back to the feed
-        return redirect('/');
+        // Redirect back to the feed with Success toast
+        return redirect('/')->with('success', 'Chirp created!');
     }
 
     /**
