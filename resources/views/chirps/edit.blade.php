@@ -32,6 +32,7 @@
                         <a href="/" class="btn btn-ghost btn-sm">
                             Cancel
                         </a>
+
                         <button type="submit" class="btn btn-primary btn-sm">
                             Update Chirp
                         </button>
