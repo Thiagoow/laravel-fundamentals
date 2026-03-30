@@ -9,6 +9,20 @@
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
+
+    <!-- OG Images -->
+    <meta property="og:image" content={{ asset('images/og.jpeg') }} />
+    <meta property="og:title" content="Chirper" />
+    <meta property="og:description"
+        content="A demo social media platform highlighting the power and simplicity of Laravel." />
+    <meta property="og:url" content="https://chirper.laravel.cloud" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+    <link rel="icon" type="image/svg+xml" href="{{ asset('favicon.svg') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
